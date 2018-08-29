@@ -1,0 +1,111 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <app-profile></app-profile>
+    </div>
+    <div class="col-sm-9">
+
+      <div id="post">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <table>
+              <tr rowspan="2">
+                <td>
+                  <img src="../../assets/user.jpg" class="rounded-circle">
+                </td>
+                <td>
+                  Richa Madhupriya
+                  <br/>
+                  <small>Analyst at Capgemini India Pvt Ltd</small>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="panel-body form-group">
+            <textarea class="form-control" rows="4" cols="40" placeholder="Write here"></textarea>
+          </div>
+          <div class="panel-footer">
+            <button class="btn btn-primary">POST</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="panel panel-default">
+            <div class="panel-heading dropdown">
+              Capgemini
+              <br/>
+              <small>India </small>
+              <a data-toggle="dropdown" href="#" style="float: right;">
+                <span class="glyphicon glyphicon-option-horizontal "></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pencil "></span> Edit Post</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-trash "></span> Delete Post</a>
+                </li>
+              </ul>
+            </div>
+            <div class="panel-body">
+              <article>
+                <h6>Google Chrome</h6>
+                <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+              </article>
+            </div>
+            <div class="panel-footer">
+              <a href="#" class="btn btn-info btn-sm">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+              </a> &nbsp; &nbsp;
+              <a href="#" class="btn btn-info btn-sm" data-toggle="collapse" data-target="#comment">
+                <span class="glyphicon glyphicon-comment"></span> Comment
+              </a>
+              <br/>
+
+              <div id="comment" class="collapse">
+
+                <form class="form-inline">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Add a comment.." id="postComment">
+                  </div>
+                  &nbsp; &nbsp;
+                  <button type="submit" class="btn btn-md btn-primary">POST</button>
+                </form>
+                <table>
+                    <tr rowspan="2">
+                      <td>
+                        <img src="../../assets/user.jpg" class="rounded-circle">
+                      </td>
+                      <td>
+                         Richa Madhupriya
+                        <br/>
+                        <small id="comments">Google Chrome is a free, open-source web browser developed by Google, released in 2008.Google Chrome is a free, open-source web browser developed by Google, released in 2008.</small>
+                      </td>
+                    </tr>
+                  </table><br/>
+                  <table>
+                      <tr rowspan="2">
+                        <td>
+                          <img src="../../assets/user.jpg" class="rounded-circle">
+                        </td>
+                        <td>
+                           Capgemini
+                          <br/>
+                          <small>Google Chrome is a free, open-source web browser developed by Google,</small>
+                        </td>
+                      </tr>
+                    </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

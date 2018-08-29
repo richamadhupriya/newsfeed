@@ -1,0 +1,37 @@
+#post {
+    margin-top: 40px;
+    margin-right:100px;
+    box-sizing: content-box;
+    transition: 0.3s;
+    
+  }
+  #post input{ 
+    margin-left:500px;
+   
+   }
+ 
+  #comment{
+    margin-top: 10px;
+    margin-left: -500px;
+    
+  }
+  img{
+    width:40px;
+    height:40px;
+  }
+  #comment input[type="text"]
+  {
+    width: 470px
+  }
+  #comment table{
+    margin-top: 10px;
+    margin-left:500px;
+    table-layout: fixed;
+    
+  }
+  #comment td{
+    overflow: hidden;
+    word-wrap: break-word;
+    
+  }
+ 
